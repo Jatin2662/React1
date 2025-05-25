@@ -1,0 +1,31 @@
+
+
+
+.effect{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.effect button{
+    font-size: 25px;
+    padding: 12px;
+    background-color: bisque;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.effect-data {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.loading-error{
+    color:black;
+    font-size: 45px;
+}

@@ -1,0 +1,53 @@
+.hook {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(135deg, #f0f4f8, #d9e4f5);
+    height: 50vh;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.btn {
+    background-color: #ffffff;
+    height: 60%;
+    width: 30vh;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hook-value {
+    color: #6c5ce7;
+    font-size: 42px;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn-value {
+    color: #2d3436;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.btn button {
+    background-color: #00cec9;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: #00b4b4;
+}
+
+.btn button:disabled{
+    background-color: #5f5f5f;
+}

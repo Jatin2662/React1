@@ -1,0 +1,46 @@
+.box-navbar {
+    background-color: azure;
+    /* width: 200px; */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box-navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-navbar li {
+    padding: 5px 10px;
+}
+
+/* For hover
+
+.dropdown {
+    position: relative; 
+  }
+  
+  .box-navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: azure;
+    width: 200px;
+    display: none; 
+    z-index: 10;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+
+  .dropdown:hover .box-navbar {
+    display: block;
+  } */

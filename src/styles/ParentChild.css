@@ -1,0 +1,15 @@
+
+
+
+.light-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: aliceblue; */
+    gap: 20px;
+}
+
+.light-class h1{
+    font-size: 45px;
+}

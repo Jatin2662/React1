@@ -1,0 +1,77 @@
+
+
+.form-sec{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    
+}
+
+.form-sec-btn{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+.form-sec-btn button{
+    font-size: 18px;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: rgb(0, 34, 255);
+    color: white;
+}
+
+.small-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40vh;
+    width: 30%;
+    background-color: rgb(216, 237, 255);
+    border-radius: 5px;
+}
+
+.big-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90%;
+    width: 35%;
+    background-color: rgb(216, 237, 255);
+    border-radius: 5px;
+}
+
+.small-form form, .big-form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.small-form form input, .big-form form input{
+    width: 80%;
+    height: 40px;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.small-form form button, .big-form form button{
+    font-size: 18px;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: aqua;
+}
+
+.big-form form textarea{
+    resize: none;
+    height: 45px;
+    width: 80%;
+    height: 40px;
+    border-radius: 3px;
+}
