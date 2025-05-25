@@ -1,18 +1,30 @@
-
-
-.home{
+.home {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    gap: 12px;
 }
 
-.home h1{
+.home h1 {
     flex-grow: 1;
     font-size: 35px;
 }
 
-.home p{
-    flex-grow: 4;
-    font-size: 25px;
+.topic-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.topic-card div{
+    background-color: #dbeeff;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.topic-card ul {
+    padding-left: 20px;
 }
